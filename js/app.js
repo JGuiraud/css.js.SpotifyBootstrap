@@ -30,7 +30,6 @@ $(document).ready(function () {
             app.connexion.push({ username: app.pseudo, password: app.password })
             console.log(app.connexion)
             data.Users.map(function (i) {
-                console.log(i)
                 if (i.username === app.pseudo && i.password === app.password) {
                     console.log(i.color)
                     app.append(i.color);
