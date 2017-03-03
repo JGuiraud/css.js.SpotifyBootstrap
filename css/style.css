@@ -9,7 +9,8 @@
 /* --- nav bar --- */
 
 input {
-    color: black
+    color: black;
+    width: 6em;
 }
 
 #logo-top {
