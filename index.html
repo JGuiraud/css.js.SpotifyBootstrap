@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="container-fluid navbar navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                        aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img id="logo-top" src="images/spotify-logo_white.png" alt=""></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="">Premium</a></li>
+                        <li><a href="">Aide</a></li>
+                        <li><a href="">Aide</a></li>
+                        <li><a href="">Télécharger</a></li>
+                        <li><a href="">|</a></li>
+                        <li><a href="">S'inscrire</a></li>
+                        <li><a href="">Se connecter</a></li>
+                        <input type="" id="pseudo" name="pseudo" value="machin">
+                        <input type="" id="pass" name="password" value="machin123">
+                        <button id="btnsend" type="submit">Send</button>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+
+
+    </header>
+    <section>
+        <div class="bs-example">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <h1>Utilisez Spotify sur votre<br> PlayStation®. </h1>
+                        <button type="button" class="btn-default1"><h4>EN SAVOIR PLUS</h4></button>
+                    </div>
+                    <div class="item">
+
+                        <h1>De la musique pour tous. </h1>
+                        <button type="button" class="btn-default1"><h4>TELECHARGER SPOTIFY FREE</h4></button>
+                        <button type="button" class="btn-default2"><h4>ABONNEZ-VOUS À SPOTIFY PREMIUM</h4></button>
+                    </div>
+                    <div class="item">
+                        <h1>Offrez Spotify Premium <br>à toute la famille.<br>Seulement 14,99 €. </h1>
+                        <button type="button" class="btn-default1"><h4>EN SAVOIR PLUS</h4></button>
+                    </div>
+                </div>
+                <!-- Carousel controls -->
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid white-area">
+            <div class="row">
+                <div class="container container-white-area">
+
+                    <div class="col-md-6 spotify-4">
+                        <img src="./images/spotify-4.png" alt="">
+                    </div>
+                    <div class="col-md-5 col-md-offset-1">
+                        <div class="col-md-12 purple">
+                            <h1>Les avantages de Spotify</h1>
+                        </div>
+                        <div class="col-md-12 purple">
+                            <h2>Musique</h2>
+                            <p>Le catalogue Spotify compte plusieurs millions de morceaux. Écoutez votre titres favoris, découvrez
+                                les nouveautés et composez la playlist de vos rêves.</p>
+                        </div>
+                        <div class="col-md-12 purple">
+                            <h2>Playlists</h2>
+                            <p>Découvrez des playlists adaptées à vos envies, composées par des fans de musique et par des spécialistes.</p>
+                        </div>
+                        <div class="col-md-12 purple">
+                            <h2>Nouveautés</h2>
+                            <p>Écoutez les derniers singles et albums de la semaine, et découvrez les titres qui ont la cote
+                                dans le top 50.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid background-fixed">
+            <div class="container">
+
+                <div class="simple col-md-5">
+                    <div class="col-md-12">
+                        <h1>Tellement<br> simple.</h1>
+                    </div>
+                    <div class="col-md-12 spoti" id="spot">
+                        <h2>Rechercher</h2>
+                        <p>Envie d'écouter un titre en particulier ? Cherchez, cliquez, écoutez. Tout simplement.</p>
+                    </div>
+                    <div class="col-md-12 spoti" id="spot">
+                        <h2>Parcourir</h2>
+                        <p>Découvrez sans plus attendre les classements les plus récents, les dernières nouveautés et les meilleures
+                            playlists.
+                        </p>
+                    </div>
+                    <div class="col-md-12 spoti" id="spot">
+                        <h2>Découvrir</h2>
+                        <p>Chaque lundi, découvrez une playlist personnalisée selon vos goûts musicaux. Ou détendez-vous en
+                            écoutant la radio.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="container-fluid grey-area">
+            <div class="container container-grey-area">
+                <img src="./images/all-devices.svg" alt="">
+            </div>
+            <div class="grey-area-text">
+                <h1>Un compte. Emportez votre musique partout.</h1>
+            </div>
+            <div class="grey-area-list">
+                <p>MOBILE</p>
+                <p>ORDINATEUR</p>
+                <p>TABLETTE</p>
+                <p>VOITURE</p>
+                <p>HAUT-PARLEUR</p>
+                <p>PLAYSTATION</p>
+                <p>TV</p>
+                <p>LECTEUR WEB</p>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="background-fixed">
+            <div class="container subscription ">
+                <div class="col-md-10 subs1">
+                    <h1>En avant la musique.</h1>
+                    <p><br>De la musique gratuite. <br> Ou optez pour un compte Premium et écoutez vos morceaux à la demande,<br>                        partout où vous voulez.
+                    </p>
+                </div>
+                <div class="col-md-9">
+                    <div>
+
+                        <div class="col-md-6" id="spot">
+                            <h2>Spotify</h2>
+                        </div>
+                        <div class="col-md-6" id="text-mois">
+                            <h2>0,00€<span class="mois">/mois</span></h2>
+                        </div>
+                        <div class="col-md-12" id="h3-borders">
+                            <h3>Écoutez vos artistes et albums préférés. Vous entendrez occasionnellement des spots publicitaires.</h3>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="button" class="btn-default1"><h4>TÉLÉCHARGEZ SPOTIFY FREE</h4></button>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div class="col-md-6" id="spot">
+                            <h2>Spotify Premium</h2>
+                        </div>
+                        <div class="col-md-6" id="text-mois">
+                            <h2>9,99€<span class="mois">/mois</span></h2>
+                        </div>
+                        <div class="col-md-12" id="h3-borders">
+                            <li>Écoute à la demande.</li>
+                            <li>Musique hors connexion</li>
+                            <li>Aucune pub</li>
+                            <li>Grande qualité audio.</li>
+
+                        </div>
+                        <div class="col-md-12 container-button">
+
+                            <button type="button" class="btn-default1"><h4>ABONNEZ-VOUS À SPOTIFY PREMIUM</h4></button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-12 disclaimer">
+                    <p>* L'offre Spotify® d'essai gratuit de 30 est soumise aux conditions générales . Les utilisateurs abonnés
+                        au service Premium ou Unlimited, ou ayant déjà profité d'un essai gratuit ne peuvent pas bénéficier
+                        de cette offre.</p>
+                </div>
+
+            </div>
+            <div class="col-md-10">
+
+            </div>
+            <div class="col-md-10">
+
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <div class="container container-bottom">
+            <div class="row nav-down">
+                <div class="col-md-2">
+                    <a href=""><img id="logo-bottom" src="./images/spotify_white.png" alt=""></a>
+                </div>
+                <div class="col-md-2">
+                    <h6>SOCIETE</h6>
+                    <li>A propos</li>
+                    <li>Offres d'emploi</li>
+                    <li>Presse</li>
+                    <li>Actualité</li>
+
+                </div>
+                <div class="col-md-2">
+                    <h6>COMMUNAUTE</h6>
+                    <li>Espace artistes</li>
+                    <li>Développeurs</li>
+                    <li>Marques</li>
+
+                </div>
+                <div class="col-md-2">
+                    <h6>LIENS UTILES</h6>
+                    <li>Aide</li>
+                    <li>Cadeau</li>
+                    <li>Lecteur Web</li>
+                </div>
+                <div class="col-md-4 social">
+
+                    </a>
+                    <a href="https://fr.linkedin.com/in/jeromeguiraud" target="_blank">
+                        <span title="instagram" class="fa-stack fa-2x">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                    </a>
+                    <a href="https://fr.linkedin.com/in/jeromeguiraud" target="_blank">
+                        <span title="twitter" class="fa-stack fa-2x">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+				        </span>
+                    </a>
+                    </span>
+                    <a href="https://fr.linkedin.com/in/jeromeguiraud" target="_blank">
+                        <span title="facebook" class="fa-stack fa-2x">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+				        </span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 legal">
+                <a href="">Légal</a>
+                <a href="">Confidentiel</a>
+                <a href="">Cookies</a>
+                <a href="">À propos des pubs</a>
+            </div>
+            <div class="col-md-6 copyright">
+                <p>© 2017 Spotify AB</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+/*font-family: 'Ubuntu', sans-serif;*/
+
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* --- nav bar --- */
+
+input {
+    color: black
+}
+
+#logo-top {
+    height: 35px;
+    margin-top: -10px;
+}
+
+.navbar {
+    border: none;
+background-color: rgba(20,0,30,0.7);
+height: 70px;
+}
+
+.navbar .container {
+margin: .7em;
+color: white;
+}
+
+.navbar-brand, .navbar-nav>li>a {
+    color: white;
+    box-shadow: none;
+}
+
+.navbar-brand, .navbar-nav>li>a:hover {
+    background-color:transparent;
+
+    color: #9BEEE0;
+    transition: 0.2s;
+}
+
+
+.icon-bar {
+    background-color: white;
+}
+
+/*.navbar-collapse.in {
+background-color: rgba(20,0,30,0.7);
+
+}*/
+
+
+
+/* carousel */
+
+.carousel{
+    background: url("../images/background2.png") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 85vh;
+}
+
+.carousel-indicators {
+    letter-spacing: 4px;
+    height: 10vh;
+    margin-bottom:0px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    color: white;
+    background: none;
+}
+
+.carousel-control:hover {
+    background: none;
+}
+
+.item {
+    text-align: center;
+    padding-top: 10em;
+}
+
+.item:nth-child(3) {
+    padding-top: 7em;
+}
+.item:nth-child(2) {
+    padding-top: 12em;
+}
+
+.item h1 {
+    font-size: 57px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 0.3em;
+}
+.btn-default2 {
+    background-color: transparent;
+    padding: 2px 45px;;
+    color: white;
+    font-weight: bold;
+    border: 2px white solid;
+    border-radius: 150px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.item .btn-default2 {
+margin-left: 20px;
+}
+
+/* --------------- */
+
+.white-area {
+    margin-top: 8em;
+        padding-bottom: 13em;
+
+}
+
+
+.spotify-4 img {
+    width: 42vw
+}
+
+.purple h1 {
+    font-size: 47px;
+    font-weight: bold;
+    color: #7C25F8;
+}
+.purple h2 {
+    font-weight: bold;
+    color: #7C25F8;
+    font-size: 35px;
+}
+
+.purple p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+/* ----- 'simple' area ----- */
+
+
+.simple div {
+    padding-left: 0px;
+}
+
+.simple h1 {
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 2.5em;
+}
+
+.spoti h2 {
+    padding-bottom: 8px;
+}
+
+
+
+
+/* ----- grey area ----- */
+
+.grey-area {
+    background-color: #232323;
+}
+
+.container-grey-area {
+    text-align: center;
+    padding-top: 7em;
+}
+
+.grey-area-text h1 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.grey-area-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 7em;
+}
+
+.grey-area-list p {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.grey-area-list p:nth-child(1) {
+    margin-left: 12em;
+}
+.grey-area-list p:nth-child(8) {
+    margin-right: 12em;
+}
+
+/*---- Subscription -----*/
+
+.background-fixed {
+    background: url("../images/background2.png") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+
+}
+
+.subscription {
+    padding-top: 10em;
+}
+
+#spotify-subs {
+    text-align: left;
+    padding: 0px;
+
+}
+
+#text-mois {
+    text-align: right;
+}
+#text-mois span {
+color:#9BEEE0
+}
+#text-mois h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.mois {
+    font-size: 18px;
+}
+
+.subs1 h3 {
+    margin-top: 5em;
+}
+.subs1 h1 {
+font-size: 55px;
+font-weight: bold;
+}
+.subs1 p {
+font-size: 17px;
+}
+
+#spot {
+    padding-left: 0px;
+}
+#spot p {
+font-size: 17px;
+}
+#spot:nth-child(4) p {
+margin-bottom: 9em;
+}
+#spot h2 {
+font-size: 40px;
+font-weight: bold;
+    color: #9BEEE0;
+
+}
+
+#h3-borders  {
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+    padding-bottom:2em;
+    padding-top:1em;
+    padding-left: 0px;
+}
+
+#h3-borders li {
+    list-style: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#h3-borders li:nth-child(1) {
+margin-top: 10px;
+}
+#h3-borders h3 {
+font-weight: bold;
+}
+
+.disclaimer {
+    text-align: center;
+    font-size: 11px;
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-down div li {
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.container-button {
+    padding-left: 0px;
+}
+
+.btn-default1 {
+    background-color: #7c25f8;
+    padding: 6px 45px;;
+    color: white;
+    border: none;
+    border-radius: 150px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.btn-default1 h4 {
+   font-weight: bold;
+}
+.btn-default1:hover {
+background-color: #650AE5;
+color: white;
+transition: .2s;
+}
+
+/* ---- footer ---- */
+
+footer {
+    padding-top: 80px;
+    padding-bottom: 0px;
+    background: black;
+    color: white;
+    height: 60vh;
+
+}
+
+.container-bottom {
+    /*display: flex;*/
+}
+
+.fa-circle {
+    color: #2E2F33;
+}
+
+.nav-down h6 {
+    color:grey;
+}
+
+.social {
+    text-align: right;
+}
+
+#logo-bottom {
+    width: 100px;
+}
+
+
+.legal {
+    font-size: 11px;
+    padding-top: 10vh;
+    align-self: flex-end;
+}
+
+.copyright {
+    padding-top: 10vh;
+    text-align: right;
+    color: grey;
+    font-size: 11px;
+}
+
+
+.legal a {
+    padding-right: 10px;
+    color:grey;
+}
