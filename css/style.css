@@ -4,7 +4,18 @@
 
 * {
     font-family: 'Ubuntu', sans-serif;
+
 }
+
+body {
+
+}
+
+.smartsimple {
+    position: relative;
+    overflow: hidden;
+}
+
 
 /* --- nav bar --- */
 
@@ -53,7 +64,7 @@ color: white;
     background: url("../images/background2.png") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
-    height: 85vh;
+    height: 40em;
 }
 
 .carousel-indicators {
@@ -106,13 +117,59 @@ margin-left: 20px;
 
 /* --- smartphones ---- */
 
+
+
 .smartphone-container {
-    width: 40vw;
-    background-color: lime;
+    position: absolute;
+    width: 90vw;
+    margin-left: 35vw;
+    margin-top: -165vh;
+    display: flex;
+    height: auto;
+    transform: rotate(30deg)
+
 }
+
+.smartphone-container .container.smart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.smartphone-container .container.smart img {
+    z-index: 20;
+    height:110vh;
+}
+#smart{
+    margin-top: 13em;
+}
+
+#smartbottom {
+    margin-top: -13em;
+}
+
+/*#smart img {
+    margin-top: 400px;
+}*/
+
+/*.smartphone-container .container.smart .col-md-4 img:nth-child(1) {
+    margin-top: 500px;
+}*/
+
+/*.smartphone-container .smart img:nth-child(1); {
+    margin-top: 100px;
+    height:50em;
+}*/
+
+
+
 
 
 /* --------------- */
+
+.container-fluid.white-area {
+    z-index: -1;
+}
 
 .white-area {
     margin-top: 8em;
@@ -143,6 +200,11 @@ margin-left: 20px;
 
 /* ----- 'simple' area ----- */
 
+
+/*.container-fluid.background-fixed {
+    position: relative;
+    overflow: hidden;
+}*/
 
 .simple div {
     padding-left: 0px;
@@ -207,7 +269,12 @@ margin-left: 20px;
     background-size: cover;
     background-attachment: fixed;
     color: white;
+    position: relative;
+    overflow: hidden;
 
+}
+
+.container.subscription {
 }
 
 .subscription {
@@ -321,6 +388,12 @@ color: white;
 transition: .2s;
 }
 
+.imagesmart img {
+    position: absolute;
+    height: 130vh;
+}
+
+
 /* ---- footer ---- */
 
 footer {
@@ -346,6 +419,7 @@ footer {
 
 .social {
     text-align: right;
+
 }
 
 #logo-bottom {
